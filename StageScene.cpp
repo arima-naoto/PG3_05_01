@@ -9,8 +9,9 @@ void StageScene::Initialize() {}
 /// </summary>
 void StageScene::Update(char* keys, char* preKeys) {
 
+	//スペースキーを押した瞬間
 	if (keys[DIK_SPACE] && preKeys[DIK_SPACE] == false) {
-
+		//シーンをCLEARに変える
 		sceneNo = Scene::CLEAR;
 
 	}

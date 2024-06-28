@@ -6,9 +6,9 @@
 GameManeger::GameManeger() {
 
 	//各シーンの配列
-	sceneArr_[TITLE] = std::make_unique<TitleScene>();
-	sceneArr_[STAGE] = std::make_unique<StageScene>();
-	sceneArr_[CLEAR] = std::make_unique<ClearScene>();
+	sceneArr_[TITLE] = std::make_unique<TitleScene>();//シーンタイトル
+	sceneArr_[STAGE] = std::make_unique<StageScene>();//シーンゲーム
+	sceneArr_[CLEAR] = std::make_unique<ClearScene>();//シーンクリア
 
 	//初期シーンをタイトルに設定する
 	currentSceneNo_ = TITLE;

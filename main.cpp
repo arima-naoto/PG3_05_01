@@ -13,12 +13,15 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	char keys[256] = {0};
 	char preKeys[256] = {0};
 
+	//GameManegerクラスのインスタンスを作成する
 	GameManeger* gameManeger = new GameManeger();
 
+	//GameManegerクラスからメンバ関数Runを呼び出す
 	gameManeger->Run(keys, preKeys);
 
-	delete gameManeger;
+	
 	// ライブラリの終了
 	Novice::Finalize();
+	delete gameManeger;//GameManegerを解放する
 	return 0;
 }

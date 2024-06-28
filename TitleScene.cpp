@@ -11,8 +11,10 @@ void TitleScene::Initialize() {
 /// </summary>
 void TitleScene::Update(char* keys, char* preKeys) {
 
+	//スペースキーを押した瞬間
 	if (keys[DIK_SPACE] && preKeys[DIK_SPACE] == false) {
 
+		//シーンをSTAGEに切り替える
 		sceneNo = Scene::STAGE;
 
 	}
