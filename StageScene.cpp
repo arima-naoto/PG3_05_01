@@ -22,6 +22,7 @@ void StageScene::Update(char* keys, char* preKeys) {
 /// </summary>
 void StageScene::Draw() {
 	Novice::DrawBox(0, 0, 1280, 720, 0.0f, BLUE, kFillModeSolid);
+	Novice::ScreenPrintf(0, 0, "Push Space");
 }
 
 

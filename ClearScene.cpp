@@ -24,4 +24,5 @@ void ClearScene::Update(char* keys, char* preKeys) {
 /// </summary>
 void ClearScene::Draw() {
 	Novice::DrawBox(0, 0, 1280, 720, 0.0f, GREEN, kFillModeSolid);
+	Novice::ScreenPrintf(0, 0, "Push Space");
 }

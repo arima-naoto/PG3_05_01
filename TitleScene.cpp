@@ -24,5 +24,6 @@ void TitleScene::Update(char* keys, char* preKeys) {
 /// </summary>
 void TitleScene::Draw() {
 	Novice::DrawBox(0, 0, 1280, 720, 0.0f, RED, kFillModeSolid);
+	Novice::ScreenPrintf(0, 0, "Push Space");
 }
 
