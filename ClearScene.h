@@ -12,7 +12,7 @@ public://メンバ関数
 	void Initialize() override;
 
 	///更新処理
-	void Update() override;
+	void Update(char* keys, char* preKeys) override;
 
 	///描画処理
 	void Draw() override;

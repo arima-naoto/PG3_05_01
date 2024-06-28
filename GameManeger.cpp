@@ -21,7 +21,7 @@ GameManeger::~GameManeger(){
 
 int GameManeger::Run(char* keys, char* preKeys) {
 
-	while (Novice::ProcessMessage()) {
+	while (Novice::ProcessMessage()==0) {
 		Novice::BeginFrame(); //フレームの開始
 
 		// キー入力を受け取る
@@ -42,7 +42,7 @@ int GameManeger::Run(char* keys, char* preKeys) {
 		///
 
 		//シーンごとの更新処理
-		sceneArr_[currentSceneNo_]->Update();
+		sceneArr_[currentSceneNo_]->Update(keys, preKeys);
 
 		///
 		/// ↑更新処理ここまで

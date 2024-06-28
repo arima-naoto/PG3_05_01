@@ -29,7 +29,7 @@ public://メンバ関数
 	virtual void Initialize() = 0;
 
 	/// 更新処理
-	virtual void Update() = 0;
+	virtual void Update(char *keys,char *preKeys) = 0;
 
 	/// 描画処理
 	virtual void Draw() = 0;

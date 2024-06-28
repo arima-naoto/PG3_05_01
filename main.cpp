@@ -1,5 +1,5 @@
 #include <Novice.h>
-#include "GameManeger.h"
+#include <GameManeger.h>
 
 const char kWindowTitle[] = "GC2A_02_アリマ_ナオト";
 
@@ -17,6 +17,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 
 	gameManeger->Run(keys, preKeys);
 
+	delete gameManeger;
 	// ライブラリの終了
 	Novice::Finalize();
 	return 0;
