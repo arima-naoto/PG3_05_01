@@ -14,15 +14,6 @@
     <Filter Include="KamataEngine\Adapter">
       <UniqueIdentifier>{c6468eb4-788b-4a83-b207-a5f4804e56c5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="GameMain">
-      <UniqueIdentifier>{f29e2cc0-dc4d-4eff-82d9-5f41290ce0bf}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="GameMain\cpp.file">
-      <UniqueIdentifier>{31251e5d-e947-4a4c-aed3-954e51cd1f20}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="GameMain\header.file">
-      <UniqueIdentifier>{aaf63b85-9c95-454e-a78f-8589600c7be9}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\DirectXCommon.cpp">
@@ -47,18 +38,10 @@
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\StringUtility.cpp">
       <Filter>KamataEngine\Source</Filter>
     </ClCompile>
-    <ClCompile Include="ClearScene.cpp">
-      <Filter>GameMain\cpp.file</Filter>
-    </ClCompile>
-    <ClCompile Include="IScene.cpp">
-      <Filter>GameMain\cpp.file</Filter>
-    </ClCompile>
-    <ClCompile Include="StageScene.cpp">
-      <Filter>GameMain\cpp.file</Filter>
-    </ClCompile>
-    <ClCompile Include="TitleScene.cpp">
-      <Filter>GameMain\cpp.file</Filter>
-    </ClCompile>
+    <ClCompile Include="IScene.cpp" />
+    <ClCompile Include="ClearScene.cpp" />
+    <ClCompile Include="StageScene.cpp" />
+    <ClCompile Include="TitleScene.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\KamataEngine\DirectXGame\audio\Audio.h">
@@ -132,17 +115,9 @@
     <ClInclude Include="C:\KamataEngine\DirectXGame\base\StringUtility.h">
       <Filter>KamataEngine\Include</Filter>
     </ClInclude>
-    <ClInclude Include="ClearScene.h">
-      <Filter>GameMain\header.file</Filter>
-    </ClInclude>
-    <ClInclude Include="IScene.h">
-      <Filter>GameMain\header.file</Filter>
-    </ClInclude>
-    <ClInclude Include="StageScene.h">
-      <Filter>GameMain\header.file</Filter>
-    </ClInclude>
-    <ClInclude Include="TitleScene.h">
-      <Filter>GameMain\header.file</Filter>
-    </ClInclude>
+    <ClInclude Include="ClearScene.h" />
+    <ClInclude Include="IScene.h" />
+    <ClInclude Include="StageScene.h" />
+    <ClInclude Include="TitleScene.h" />
   </ItemGroup>
 </Project>
