@@ -1,4 +1,4 @@
-#include "GameMain/header.file/StageScene.h"
+#include "GameMain/header.file/Scene/StageScene.h"
 /// <summary>
 /// 初期化処理
 /// </summary>
