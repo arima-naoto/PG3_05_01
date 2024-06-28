@@ -16,5 +16,6 @@ public://メンバ関数
 
 	///描画処理
 	void Draw() override;
+
 };
 

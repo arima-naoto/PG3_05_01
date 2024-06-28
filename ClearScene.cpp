@@ -1,20 +1,20 @@
-#include "GameMain/header.file/Scene/TitleScene.h"
+#include "ClearScene.h"
 
 /// <summary>
 /// 初期化処理
 /// </summary>
-void TitleScene::Initialize() {
+void ClearScene::Initialize() {
 }
 
 /// <summary>
 /// 更新処理
 /// </summary>
-void TitleScene::Update() {
+void ClearScene::Update() {
 }
 
 /// <summary>
 /// 描画処理
 /// </summary>
-void TitleScene::Draw() {
-}
+void ClearScene::Draw() {
 
+}

@@ -1,4 +1,4 @@
-#include "GameMain/header.file/Scene/IScene.h"
+#include "IScene.h"
 
 //シーンはタイトルで初期化しておく
 int IScene::sceneNo = Scene::TITLE;
