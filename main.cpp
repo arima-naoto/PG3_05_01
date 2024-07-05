@@ -15,7 +15,6 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	//GameManegerクラスからメンバ関数Runを呼び出す
 	gameManeger->Run();
 
-	
 	// ライブラリの終了
 	Novice::Finalize();
 	delete gameManeger;//GameManegerを解放する
