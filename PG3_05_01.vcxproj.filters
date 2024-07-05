@@ -14,21 +14,6 @@
     <Filter Include="KamataEngine\Adapter">
       <UniqueIdentifier>{c6468eb4-788b-4a83-b207-a5f4804e56c5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Game">
-      <UniqueIdentifier>{ab39bee6-36e1-4682-add5-dfe64c58f172}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Game\cpp.file">
-      <UniqueIdentifier>{fb75698d-bbca-4c6f-940c-ad745476bf1f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Game\header.file">
-      <UniqueIdentifier>{d0608490-3229-4eb9-a2e8-2a51a9f46c1e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Game\cpp.file\scene">
-      <UniqueIdentifier>{420d13aa-1a65-493e-87c9-b0d6769dad8a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Game\header.file\scene">
-      <UniqueIdentifier>{3d587860-3da9-456f-804f-9f32cbf37c51}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\DirectXCommon.cpp">
@@ -54,19 +39,19 @@
       <Filter>KamataEngine\Source</Filter>
     </ClCompile>
     <ClCompile Include="ClearScene.cpp">
-      <Filter>Game\cpp.file\scene</Filter>
-    </ClCompile>
-    <ClCompile Include="IScene.cpp">
-      <Filter>Game\cpp.file\scene</Filter>
-    </ClCompile>
-    <ClCompile Include="StageScene.cpp">
-      <Filter>Game\cpp.file\scene</Filter>
-    </ClCompile>
-    <ClCompile Include="TitleScene.cpp">
-      <Filter>Game\cpp.file\scene</Filter>
+      <Filter>KamataEngine</Filter>
     </ClCompile>
     <ClCompile Include="GameManeger.cpp">
-      <Filter>Game\cpp.file\scene</Filter>
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="IScene.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="StageScene.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>KamataEngine</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -140,21 +125,11 @@
     <ClInclude Include="C:\KamataEngine\DirectXGame\base\StringUtility.h">
       <Filter>KamataEngine\Include</Filter>
     </ClInclude>
-    <ClInclude Include="ClearScene.h">
-      <Filter>Game\header.file\scene</Filter>
-    </ClInclude>
-    <ClInclude Include="IScene.h">
-      <Filter>Game\header.file\scene</Filter>
-    </ClInclude>
-    <ClInclude Include="StageScene.h">
-      <Filter>Game\header.file\scene</Filter>
-    </ClInclude>
-    <ClInclude Include="TitleScene.h">
-      <Filter>Game\header.file\scene</Filter>
-    </ClInclude>
-    <ClInclude Include="GameManeger.h">
-      <Filter>Game\header.file\scene</Filter>
-    </ClInclude>
     <ClInclude Include="C:\KamataEngine\DirectXGame\2d\ImGuiManager.h" />
+    <ClInclude Include="TitleScene.h" />
+    <ClInclude Include="ClearScene.h" />
+    <ClInclude Include="IScene.h" />
+    <ClInclude Include="StageScene.h" />
+    <ClInclude Include="GameManeger.h" />
   </ItemGroup>
 </Project>

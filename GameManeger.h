@@ -25,6 +25,6 @@ public://メンバ関数
 	~GameManeger(); //デストラクタ
 
 	//この関数をゲームループで呼び出す
-	int Run(char* keys, char* preKeys);
+	int Run();
 };
 

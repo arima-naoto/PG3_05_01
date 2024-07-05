@@ -19,7 +19,11 @@ GameManeger::GameManeger() {
 GameManeger::~GameManeger(){
 }
 
-int GameManeger::Run(char* keys, char* preKeys) {
+int GameManeger::Run() {
+
+	// キー入力結果を受け取る箱
+	char keys[256] = { 0 };
+	char preKeys[256] = { 0 };
 
 	while (Novice::ProcessMessage()==0) {
 		Novice::BeginFrame(); //フレームの開始

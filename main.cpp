@@ -9,15 +9,11 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	// ライブラリの初期化
 	Novice::Initialize(kWindowTitle, 1280, 720);
 
-	// キー入力結果を受け取る箱
-	char keys[256] = {0};
-	char preKeys[256] = {0};
-
 	//GameManegerクラスのインスタンスを作成する
 	GameManeger* gameManeger = new GameManeger();
 
 	//GameManegerクラスからメンバ関数Runを呼び出す
-	gameManeger->Run(keys, preKeys);
+	gameManeger->Run();
 
 	
 	// ライブラリの終了
